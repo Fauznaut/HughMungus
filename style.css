@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 1px;
+}
+#titleRow {
+  margin: 2vw;
+  padding-bottom: 1vw;
+}
+#titleText {
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  color: #ffffff;
+  font-size: 8vw;
+}
+#theManRow {
+  margin: 2vw;
+  padding-top: 4vw;
+}
+#theManText {
+  text-align: center;
+  font-family: 'Arvo', serif;
+  color: #ffffff;
+  font-size: 3vw;
+}
+#theManParagraph {
+  font-family: 'Scope One', serif;
+  text-align: center;
+  color: #8492a0;
+  font-size: 2vw;
+  padding-top: 2vw;
+}
+#theManPicture {
+  display: block;
+  margin: 0 auto;
+  border-radius: 6vw;
+  width: 23vw;
+  height: 37vw;
+}
+#theMythRow {
+  padding-top: 5vw;
+}
+#theMythText {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  color: #ffffff;
+}
+#theMythParagraph {
+  font-family: 'Scope One', serif;
+  text-align: center;
+  color: #8492a0;
+  font-size: 2vw;
+  padding-top: 2vw;
+}
+body {
+  overflow-x: hidden;
+  background-color: #000000 !important;
+}

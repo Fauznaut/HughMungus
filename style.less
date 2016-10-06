@@ -1,0 +1,127 @@
+
+@colorBackground: black;
+@textAlignCenter: center;
+@important: !important;
+@fontFamilyBungeeShade: 'Bungee Shade', cursive;
+@fontFamilyArvo: 'Arvo', serif;
+@fontFamilyScopeOne: 'Scope One', serif;
+@fontfamilySatisfy: 'Satisfy', cursive;
+@roundCorners: 6vw;
+
+@colorTitleText: white;
+@sizeTitleText: 8vw;
+
+@sizeTheManText: 3vw;
+@sizeTheManParagraphText: 2vw;
+@colorTheManParagraphText: #8492A0;
+
+::-webkit-scrollbar {
+	width: 1px;
+}
+
+.fontFamilyBungeeShade() {
+  font-family: @fontFamilyBungeeShade;
+}
+
+.fontFamilyArvo() {
+	font-family: @fontFamilyArvo;
+}
+
+.fontFamilyScopeOne() {
+	font-family: @fontFamilyScopeOne;
+}
+
+.fontFamilySatisfy() {
+	font-family: @fontfamilySatisfy;
+}
+
+.textAlignCenter() {
+	text-align: @textAlignCenter;
+}
+
+.alignCenter() {
+	display: block;
+	margin: 0 auto;
+}
+
+.roundImageCorners() {
+	border-radius: @roundCorners;
+}
+
+	#titleRow {
+		margin: 2vw;
+		padding-bottom: 1vw;
+	}
+
+	#titleText {
+		.textAlignCenter();
+		.fontFamilyBungeeShade();
+		color: @colorTitleText;
+		font-size: @sizeTitleText;
+	}
+
+	#theManRow {
+		margin: 2vw;
+		padding-top: 4vw;
+	}
+
+	#theManColumn1 {
+
+	}
+
+	#theManText {
+		.textAlignCenter();
+		.fontFamilyArvo();
+		color: @colorTitleText;
+		font-size: @sizeTheManText;
+	}
+
+	#theManParagraph {
+		.fontFamilyScopeOne();
+		.textAlignCenter();
+		color: @colorTheManParagraphText;
+		font-size: @sizeTheManParagraphText;
+		padding-top: 2vw;
+	}
+
+	#theManColumn2 {
+
+	}
+
+	#theManPicture {
+		.alignCenter();
+		.roundImageCorners();
+		width: 23vw;
+		height: 37vw;
+	}
+
+	#theMythRow {
+		padding-top: 5vw;
+	}
+
+	#theMythColumn1 {
+
+	}
+
+	#theMythColumn2 {
+
+	}
+
+	#theMythText {
+		.fontFamilySatisfy();
+		.textAlignCenter();
+		color: @colorTitleText;
+	}
+
+	#theMythParagraph {
+		.fontFamilyScopeOne();
+		.textAlignCenter();
+		color: @colorTheManParagraphText;
+		font-size: @sizeTheManParagraphText;
+		padding-top: 2vw;
+	}
+
+body {
+	overflow-x: hidden;
+	background-color: @colorBackground @important;
+}
